@@ -1,0 +1,29 @@
+nav {
+  ul {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    a {
+      color: var(--title-dark);
+      transition: all 0.3s;
+
+      &:hover {
+        color: var(--hover-dark);
+      }
+    }
+  }
+
+  .themeChanger {
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
+}
